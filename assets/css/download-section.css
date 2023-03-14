@@ -1,0 +1,91 @@
+.download-section {
+    padding: 4.375rem 2.813rem;
+    background: var(--black);
+    border-bottom: .5rem solid var(--border);
+    color: var(--branco-netflix);
+    display: flex;
+    position: relative;
+    width: 100vw;
+}
+.download-mobile {
+    display: flex;
+    margin: 0 auto;
+}
+.download-mobile img {
+    width: 43.2%;
+    position: relative;
+    top: -11.8%;
+    right: 4%;
+}
+.download-mobile .download-check {
+    padding: 0.5em 0.75em;
+    left: 8.9%;
+    bottom: 8%;
+    display: flex;
+    width: 25%;
+    height: 6rem;
+    min-width: 15em;
+    border-radius: 0.75em;
+    box-shadow: 0 0 2em var(--black);
+    background-color: var(--black);
+    margin: 0 auto;
+    border: .15rem solid var(--cinza-borda);
+    position: absolute;
+    top: 52%;
+    font-family: Netflix sans;
+}
+.download-mobile .download-check img {
+    width: 18.5%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateY(-51.8%);
+}
+.download-mobile .download-check .down-info {
+    margin-left: -0.5%;
+    display: block;
+    padding: .3rem;
+    margin-top: 1.8%;
+    max-width: 13rem;
+    margin-left: 2%;
+}
+.download-mobile .download-check .titulo-serie {
+    font-family: Netflix sans;
+    font-weight: 900;
+    transform: translateY(23%);
+    padding-bottom: 0.4rem;
+    font-size: 1em;
+}
+.download-mobile .download-check .downloading {
+    color: var(--blue-netflix);
+    max-width: 13rem;
+    font-size: 0.9em;
+}
+.download-mobile .download-check .icon-download {
+    width: 14%;
+    height: 50%;
+    left: 79%;
+    top: 50%;
+    position: absolute;
+}
+.texto-mobile {
+    padding: 0 0 0 8.4%;
+    margin-top: 3.4rem;
+    margin-left: -4.9%;
+}
+.texto-mobile h1 {
+    font-family: Netflix sans;
+    font-size: 3.125rem;
+    max-width: 35rem;
+    margin: 0 0 0.4em;
+    font-weight: bold;
+    max-width: 25rem;
+    line-height: 1.1;
+}
+.texto-mobile h2 {
+    font-size: 1.625rem;
+    max-width: 33rem;
+    font-family: Netflix sans;
+    font-weight: normal;
+}

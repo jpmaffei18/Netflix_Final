@@ -1,0 +1,51 @@
+.section-tv {
+    width: 100vw;
+    padding: 4.375rem 2.813rem;
+    border-top: .5rem solid var(--border);
+    border-bottom: .5rem solid var(--border);
+    background-color: var(--black);
+}
+.container-tv {
+    max-width: 68.75rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+.container-tv .texto {
+    color: var(--branco-netflix);
+    padding: 0 2.5rem 0 0;
+    max-width: 35rem;
+    margin: 0 auto;
+}
+.container-tv .texto h1 {
+    font-size: 3.15rem;
+    padding-bottom: 0.938rem;
+    font-family: Netflix sans;
+    line-height: 1.1;
+}
+.container-tv .texto h2 {
+    font-size: 1.625rem;
+    min-width: 35rem;
+    max-width: 53.125rem;
+    font-weight: 400;
+    font-family: Netflix sans;
+    padding-top: .1rem;
+
+}
+.img-video {
+    position: relative;
+}
+.container-tv .img-video .tv-img1 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.container-tv .img-video .video-tv {
+    position: absolute;
+    top: 47.7%;
+    transform: translateY(-50%);
+    width: 72.5%;
+    right: 14.2%;
+}

@@ -1,0 +1,117 @@
+.duvidas {
+    height: auto;
+    width: 100vw;
+    background: var(--black);
+    border-top: .5rem solid var(--border);
+    padding: 4.375rem 2.813rem;
+    border-bottom: .5rem solid var(--border);
+}
+.duvidas .respostas {
+    max-width: 68.75rem;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.duvidas .respostas h1 {
+    color: var(--branco-netflix);
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+.accordion {
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: none;
+    background: var(--background-duvidas);
+    color: var(--branco-netflix);
+    margin: 0 0 0.5rem 0;
+    max-width: 50.938rem;
+    height: 4.688rem;
+    text-align: left;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: Netflix sans;
+    font-weight: 550;
+}
+.accordion:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+.panel {
+    margin: -.4rem auto 0;
+    padding: 1.2em;
+    display: none;
+    background: var(--background-duvidas);
+    overflow: hidden;
+    color: var(--branco-netflix);
+    max-width: 50.938rem;
+    height: auto;
+    text-align: left;
+    justify-content: center;
+    font-size: 1.625rem;
+    font-weight: 400;
+    border-bottom: .5rem var(--black) solid;    
+}
+.duvidas .respostas .email {
+    max-width: 59.375rem;
+    padding-top: 0.85rem;
+    margin:  auto;
+    position: relative; 
+}
+.duvidas .email .info-email {
+    min-width: 28.125rem;
+    min-height: 3.65rem;
+    float: left;
+    padding: 0.625rem 0.625rem 0;
+    position: relative;
+    left: 15%;
+}
+.duvidas .respostas .email .vamos-la {
+    padding: 0 2.25rem;
+    font-size: 1.625rem;
+    background-color: var(--button-red);
+    color: var(--branco-netflix);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    border-left: 1px solid black;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    cursor: pointer;
+    min-height: 3.65rem;
+    min-width: 4.625rem;
+    position: relative;
+    left: -.9%;
+}
+.duvidas .respostas h2 {
+    color: var(--branco-netflix);
+    font-weight: 400;
+    padding: 3rem 0 1.25rem 0;
+    font-size: 1.2rem;
+}
+.duvidas .respostas .vamos-la:hover{
+    background: var(--red-netflix);
+    transition: 0.2s;
+}
+.duvidas .respostas .email-place {
+    position: absolute;
+    color: var(--cinza-place);
+    left: 18%;
+    top: 82%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: .8;
+    font-family: Netflix sans;
+    font-weight: 500;
+    font-size: 1rem;  
+}
+.respostas .info-email:focus ~ .email-place {
+    margin-top: -2%;
+    font-size: 0.875rem;
+    transition: 0.3s;
+    font-weight: bold;
+}

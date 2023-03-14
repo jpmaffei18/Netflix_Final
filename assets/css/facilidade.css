@@ -1,0 +1,45 @@
+.facilidades {
+    padding: 4.375rem 2.813rem; 
+    width: 100vw;
+    background: var(--black);
+    border-bottom: .5rem solid var(--border);       
+}
+ .detalhes {
+    color: var(--branco-netflix);
+    max-width: 68.75rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.texto-facilidades{
+    padding-right: 3rem;
+}
+.texto-facilidades h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    max-width: 30rem;
+}
+.texto-facilidades {
+ padding-right: 4rem;
+}
+.detalhes .texto-facilidades h2 {
+    font-weight: 400;
+    max-width: 30rem;
+    font-size: 1.625rem;
+    padding-top: 0.8rem;
+}
+.detalhes .img-video img {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+.detalhes .video-mobile {
+    position: absolute;
+    right: 20.2%;
+    width: 62%;
+    top: 34%;
+    transform: translateY(-50%);
+}

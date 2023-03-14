@@ -1,0 +1,203 @@
+@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .section-tv, .download-section, .facilidades, .kids, .duvida {
+        padding: 70px 45px;
+        }
+    }
+    @media only screen and (max-width: 949px) {
+        .section-tv .grid,
+        .facilidades .detalhes {
+            display: block;
+            text-align: center;
+        }
+        .download-mobile,
+        .kids .kids-grid {
+            flex-direction: column-reverse;
+        }
+        .grid .texto,
+        .download-mobile .texto-mobile,
+        .kids .kids-grid .kid-texto {
+            max-width: 100%;
+            text-align: center;
+        }
+        .download-mobile .texto-mobile h1,
+        .download-mobile .texto-mobile h2, .facilidades .detalhes .texto-facilidades h1,
+        .facilidades .detalhes .texto-facilidades h2
+         {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .download-mobile .serie-download{
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        .download-section .download-mobile .download-check {
+            max-width: 100%;
+            min-width: 50%;
+            height: 12%;
+            left: 26%;
+            top: 70%;
+        }
+        .download-section .download-mobile .download-check img{
+            width: 15%;
+        }
+        .download-section .download-mobile .download-check .icon-download  {
+            width: 13.5%;       
+        }
+        
+        main .dados h1,
+        .section-tv .grid .texto h1,
+        .download-mobile .texto-mobile h1,
+        .facilidades .texto-facilidades h1, 
+        .kids .kids-grid .kid-texto h1,
+        .duvidas .respostas h1 {
+            font-size: 2.5rem;
+        }
+        
+        main .dados h2,
+        .section-tv .grid .texto h2,
+        .download-mobile .texto-mobile h2,
+        .facilidades .detalhes .texto-facilidades h2,
+        .kids .kids-grid .kid-texto h2,
+        .duvidas .respostas h2
+          {
+            font-size: 1.25rem;
+            font-weight: 400;
+    
+        }
+        .section-tv .grid .img-video .tv-img1
+          {
+            width: 75%;
+            position: relative;
+        }
+        .section-tv .grid .img-video  .video-tv  {
+            width: 54.5%;
+            top: 48%;
+            left: 22.5%;
+            transform: translateY(-50%);
+        }
+        .facilidades .detalhes .img-video img {
+            width: 75%;
+            right: 1%;
+        }
+        .facilidades .detalhes .video-mobile {
+            width: 45.5%;
+            top: 33.5%;
+            left: 25.9%;
+        }
+        .kids .kids-grid .kid-texto h1,
+        .kids .kids-grid .kid-texto h2 {
+            max-width: 100%;
+            text-align: center;
+        
+        }
+        .kids .kids-grid img {
+            width: 70%;
+            margin-top: 5%;
+            margin-left: 15%;
+        }
+    
+        .duvidas .accordion {
+            font-size: 1.1rem;
+            font-weight: 400;       
+        }
+        .duvidas .respostas .panel {
+            font-size: 1.1rem;
+            font-weight: 400;       
+        }
+    }
+    
+    @media only screen and (max-width: 740px) {
+        .email .info-email,
+        .duvidas .respostas .email .info-email {
+            width: 75vw;        
+            left: 4%;
+        }
+        .dados .email .vamos-la,
+        .email .vamos-la {
+            top: 2rem;
+            left: 35%;
+            border-radius: 0.3rem;  
+        }
+        .email .email-place{
+            margin-top: -6%;
+            margin-left: 4%;
+        }
+        .duvidas .respostas .email .email-place {
+            margin-left: -10%;
+            margin-top: -6.8%;
+        }
+        .info-email:focus~.email-place {
+            margin-top: -.3rem;
+        }
+        .duvidas .respostas .info-email:focus ~ .email-place{
+            top: 63%;
+        }
+    }
+    @media only screen and  (min-width: 500px) and (max-width: 649px) {
+        html {
+            font-size: 12px;
+        }
+        main {
+            height: auto;
+        }
+        .dados h3{
+            align-items: center;  
+        }
+        .email .info-email {
+           width: 80vw;
+           left: 0;
+        }
+        .email .info-email  .vamos-la {
+            margin: 0 auto;
+        }
+        .email .email-place {
+            margin-top: -5.9%;
+            margin-left: 0%;
+        }
+        .info-email:focus~.email-place {
+            margin-top: -.2rem;
+        }
+            .duvidas .respostas .info-email:focus ~ .email-place{
+            top: 63%;
+        }
+    
+    }
+    
+    @media (min-width: 470px) and (max-width: 569px) {
+        html {
+            font-size: 11.4px;
+        }
+        main {
+            height: auto;
+        }
+        .dados h3{
+            align-items: center;
+            
+        }
+    
+        main .email .info-email {
+           width: 80vw;
+           left: 5%;
+        }
+        .duvidas .respostas .email .email-place{
+            margin-top: -7%;
+        }
+    
+        .email .info-email  .vamos-la {
+            margin: 0 auto;
+        }
+    
+        .email .email-place {
+            margin-top: -5.9%;
+            margin-left: 5%;
+        }
+    
+        .info-email:focus~.email-place {
+            margin-top: -.19%;
+        }
+    
+        .duvidas .respostas .info-email:focus ~ .email-place {
+            margin-top: -1.9%;
+        }
+    }
